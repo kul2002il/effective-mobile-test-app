@@ -1,11 +1,19 @@
 *.log
 .DS_Store
+
 .env
 .env.backup
 .env.production
+
 .gitattributes
+
 .phpactor.json
 .phpunit.result.cache
+
+.scribe
+storage/scribe-tdd/*/*
+!storage/scribe-tdd/*/*-@.json
+
 /.fleet
 /.idea
 /.nova
@@ -14,6 +22,7 @@
 /.vscode
 /.zed
 /.editorconfig
+
 /auth.json
 /node_modules
 /public/build
@@ -22,6 +31,7 @@
 /storage/*.key
 /storage/pail
 /vendor
+
 Homestead.json
 Homestead.yaml
 Thumbs.db
